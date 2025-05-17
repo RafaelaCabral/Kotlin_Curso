@@ -1,5 +1,5 @@
 package org.example
-
+//Uma função que receba duas palavras, e retorne se elas são anagramas ou não
 fun anagramas (palavra1: String, palavra2: String): String{
     val letras1 = palavra1.toCharArray().sorted()
     val letras2 = palavra2.toCharArray().sorted()
