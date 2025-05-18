@@ -16,28 +16,41 @@ fun inverterLista(lista: Array<String>): Array<String> {
     return novaLista
 }
 
-
+//Mais direta
 
 fun main() {
     println("Digite uma lista de palavras separadas por vírgula. Ex. Banana, Maça, Carro:  ")
     val entrada = readLine()?.toString()?: ""
 
 
-    val listaOriginal = entrada.split(",")
+    val palavras = entrada.split(",").map { it.trim() }.toTypedArray()
 
-
-    val listaSemEspacos = mutableListOf<String>()
-
-    for (palavra in listaOriginal){
-        val limpa = palavra.trim()
-        listaSemEspacos.add(limpa)
-    }
-
-    val arraySemEspacos = listaSemEspacos.toTypedArray()
-    val resultado = inverterLista(arraySemEspacos)
+    val resultado = inverterLista(palavras)
 
     println("Resultado invertido: ${resultado.joinToString(", ")}")
 
 }
+//Passo a passo
+//fun main() {
+//    println("Digite uma lista de palavras separadas por vírgula. Ex. Banana, Maça, Carro:  ")
+//    val entrada = readLine()?.toString()?: ""
+//
+//
+//    val listaOriginal = entrada.split(",")
+//
+//
+//    val listaSemEspacos = mutableListOf<String>()
+//
+//    for (palavra in listaOriginal){
+//        val limpa = palavra.trim()
+//        listaSemEspacos.add(limpa)
+//    }
+//
+//    val arraySemEspacos = listaSemEspacos.toTypedArray()
+//    val resultado = inverterLista(arraySemEspacos)
+//
+//    println("Resultado invertido: ${resultado.joinToString(", ")}")
+//
+//}
 
 
