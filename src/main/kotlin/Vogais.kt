@@ -1,5 +1,5 @@
 package org.example
-
+//Crie uma função que receba uma String e retorne quantas vogais (a, e, i, o, u) existem nela.
 //Usando lib
 //fun contarVogais (frase: String): Int{
 //    val vogais = frase.lowercase().count { it in "aeiou" }

@@ -1,4 +1,5 @@
 package org.example
+//Crie uma função que receba uma frase e retorne a mesma frase com espaços duplicados removidos (ou seja, só um espaço entre as palavras).
 
 //Com lib
 fun remocaoEspaco(frase: String): String{

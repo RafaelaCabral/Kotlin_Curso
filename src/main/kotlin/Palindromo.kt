@@ -1,4 +1,5 @@
 package org.example
+//Crie uma função que receba uma palavra e diga se ela é um palíndromo (lida igual de trás para frente, como "ovo", "radar").
 
 //Com lib
 //fun palindromo(palavra: String): String{

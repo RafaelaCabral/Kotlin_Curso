@@ -1,4 +1,5 @@
 package org.example
+//Crie uma função que receba um array de Double e retorne a média dos números.
 
 //Com lib
 fun mediaNumeros(numeros: Array<Double>): Double {

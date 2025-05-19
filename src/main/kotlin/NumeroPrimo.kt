@@ -1,5 +1,7 @@
 package org.example
 
+//Crie uma função que receba um número inteiro e retorne se ele é primo ou não.
+
 fun numeroPrimo(numero: Int): String {
     for (i in 2 until numero) {
         if (numero % i == 0) {

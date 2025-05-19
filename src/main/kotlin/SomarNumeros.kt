@@ -1,5 +1,7 @@
 package org.example
 
+//Crie uma função que receba uma lista de números separados por vírgula e retorne a soma total.
+
 //Com lib
 fun somarNumeros(numeros: Array<Double>): Double{
     var soma = numeros.sum()
